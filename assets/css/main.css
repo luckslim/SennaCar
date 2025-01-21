@@ -2622,3 +2622,9 @@ section,
     object-position: center; /* Centraliza a imagem */
   }
 
+.avaible{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
