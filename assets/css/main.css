@@ -2606,22 +2606,16 @@ section,
 }
 
 /* MOdal */
-.modal-dialog.modal-dialog-centered.modal-xl .post-img{
+
+.modal-image{
   display: flex;
-  height: 500px; /* ou outro tamanho fixo */
-  position: relative;
-  overflow: hidden; /* Garante que a imagem não "vaze" da div */
-  object-fit: cover; /* Faz a imagem cobrir a div */
-  object-position: center;
+  justify-content: center;
+  margin: 10px 0 ;
 }
-
-  .modal-dialog.modal-dialog-centered.modal-xl img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Faz a imagem cobrir a div */
-    object-position: center; /* Centraliza a imagem */
-  }
-
+.modal-image img{
+  border-radius:8px;
+  width: 100%;
+}
 .avaible{
   display: flex;
   justify-content: space-between;
