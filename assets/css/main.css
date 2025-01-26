@@ -2622,3 +2622,30 @@ section,
   align-items: center;
 }
 
+
+.display-float {
+  position: fixed;
+  bottom: 5rem;
+  right: 0.7rem;
+  z-index: 1000;
+}
+
+.display-float .bi-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bi-whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
